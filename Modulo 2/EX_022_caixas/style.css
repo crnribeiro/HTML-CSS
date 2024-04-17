@@ -1,0 +1,28 @@
+@charset UTF-8;
+
+body{
+background-color: #fffefd;
+min-height: 100vh;
+}
+h1{
+background-color: lightgrey;
+height: 300px;
+width: 300px;
+border: 10px solid darkslategray;/*shorthand border = largura, tipo, cor*/
+padding: 10px 10px 10px 10px;/*shorthand padding = top, right bottom, left*/
+margin: 20px auto 40px auto;/*shorthand margin = top, right bottom, left*/
+outline-width: 5px;
+outline: 5px dashed blue;/*shorthand outline = largura, tipo, cor*/
+text-align: center;
+}
+/*
+borda = do lado de fora da caixa
+padding = margem lado dentro da caixa
+margin = margem referente a tela do navegador
+outiline = entre a borda e a margem da caixa
+*/
+a{
+border-width: 20px;
+border-style: double;
+border-color: rgb(227, 34, 34);
+}

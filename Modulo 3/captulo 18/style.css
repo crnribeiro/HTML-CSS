@@ -1,0 +1,12 @@
+@charset UTF-8;
+
+body{ 
+    min-height: 96.1vh;
+   background-image: linear-gradient(to bottom, yellow, transparent);
+}
+h1{
+    text-align: center;
+    background-color: green;
+    color: white;
+   
+}

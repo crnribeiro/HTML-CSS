@@ -1,0 +1,136 @@
+
+body{
+    background-image: url(imagens/istockphoto-517188688-612x612_II.jpg);
+    background-repeat: no-repeat;
+    background-size: 132%;
+    }
+h1{
+text-align: center;}
+.a1{
+    background-color: black;
+    text-align: center;
+     margin-top: 4px ;
+     margin-left: 15%;
+     width: 20%;
+     height: 80px;
+     color: rgb(212, 18, 27);
+     border-width: 20px; /*Estiliza a sua largura*/
+     border-style: solid; /*Estiliza seu estilo*/
+     border-color:  rgb(212, 18, 27); /*Estiliza sua cor*/
+     border-radius: 10px; /*arredonda as bordas*/
+     box-shadow: 10px 20px grey; /*efeito de sombra*/
+     }
+     .a1:hover{
+        transition: 0,5s; /*determina o tempo de transição para volta do estado normal*/
+        background-color: rgb(150, 215, 255);
+        cursor: progress;
+    }
+.a2{
+    background-color: black;
+    text-align: center;
+     margin-top: 30px ;
+     margin-left: 15%;
+     width: 20%;
+     height: 80px;
+     color: rgb(83, 8, 162);
+     border-width: 20px; /*Estiliza a sua largura*/
+     border-style: solid; /*Estiliza seu estilo*/
+     border-color:  rgb(83, 8, 162); /*Estiliza sua cor*/
+     border-radius: 10px; /*arredonda as bordas*/
+     box-shadow: 10px 20px grey; /*efeito de sombra*/
+}
+.a3{
+    background-color: black;
+    text-align: center;
+     margin-top: 28px ;
+     margin-left: 15%;
+     width: 20%;
+     height: 80px;
+     color: rgb(231, 243, 4);
+     border-width: 20px; /*Estiliza a sua largura*/
+     border-style: solid; /*Estiliza seu estilo*/
+     border-color:  rgb(231, 243, 4); /*Estiliza sua cor*/
+     border-radius: 10px; /*arredonda as bordas*/
+     box-shadow: 10px 20px grey; /*efeito de sombra*/
+}
+.nf{
+    width: 20%;
+    height: 130px;
+    position: absolute; /*deixa a imagem "livre na tela, pod3ndoocupar qualquer posição*/
+    margin-top: -14px ;
+    margin-left: 60%;
+  }
+  .nf:hover{
+    transition: 0,5s; /*determina o tempo de transição para volta do estado normal*/
+    border: solid rgb(210, 228, 16); border-width: 10px;
+    cursor: pointer;
+}
+.hbo{
+    width: 20%;
+    height: 130px;
+    position: absolute;
+    margin-top: 150px ;
+    margin-left: 60%;
+   }
+.ML{
+    width: 20%;
+    height: 130px;
+    position: absolute;
+    margin-top: 310px ;
+    margin-left: 60%;
+}
+a{
+text-decoration: none;
+}
+.bordas{
+    position: absolute;
+    text-align: center;
+    margin-left: 32%;
+    color: aliceblue;
+}
+.dotted{
+    border-style: dotted;
+    border-width: 10px;
+    border-color: rgb(40, 86, 223);
+}
+.double{
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(40, 86, 223);
+}
+.groove{
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(40, 86, 223);
+}
+.ridge{
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgb(40, 86, 223);
+}
+.inset{
+    border-style: inset;
+    border-width: 10px;
+    border-color: rgb(40, 86, 223);
+}
+.outset{
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgb(40, 86, 223);
+}
+.dashed{
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgb(40, 86, 223);
+}
+.solid{
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(40, 86, 223);
+}
+.radius{
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 10px;
+    border-color:rgb(40, 86, 223);
+}

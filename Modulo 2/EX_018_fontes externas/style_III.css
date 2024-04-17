@@ -1,0 +1,23 @@
+@charset UTF-8;
+
+
+body{
+margin-left: 0.5cm ;
+min-height: 100vh;
+background-image: linear-gradient(to bottom, #e09b9b, #de5f5f, #bb1a1a);
+font: normal 16px arial, verdana, serif;
+}
+h1{
+text-align: center;
+text-decoration: underline;
+}
+h2{
+text-align: right;
+text-transform: uppercase;
+text-transform: uppercase;
+}
+p{
+text-align: justify;
+text-indent: 30px;
+}
+

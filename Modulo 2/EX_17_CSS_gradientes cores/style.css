@@ -1,0 +1,9 @@
+*{
+height: 100%;
+} /* o seletor asterisco é pra configiuração global do site - aplica-se ao site inteiro*/
+body{
+    background-image: linear-gradient(45deg , #8BE9CE, #22C782, #419948);
+}
+    /* "to right" vai da direita pra esquerda, "to left" vai da esquerda pra direita, "to top" vai de cima pra baixo  e "to bottom" vai debaixo pra cima, pode se usar em graus tipo, 90deg, 45deg, etc*/
+    background-attachment: fixed;
+}

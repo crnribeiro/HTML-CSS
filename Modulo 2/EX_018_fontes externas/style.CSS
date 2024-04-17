@@ -1,0 +1,44 @@
+@charset UTF-8;
+
+body{
+
+    background-image: linear-gradient( to right, #96bac5, #66c7ca, #185b64);
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas absolutas: cm, mm, in (polegada), px (pixels), pt(ponto) e pc(pyca)
+    Mediddas relativas: em, ex, rem, vw, vh e %
+    16 px = 1 rm*/
+    font-size: 16px;
+}
+nav{
+    position: relative;
+    margin-left: 17em;
+    margin-top: -2em;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    
+}
+img{
+    width: 20em;
+    border-radius: 5em;
+}
+.quartararo{
+    position: absolute;
+    margin-left: -5em;
+    margin-top: 3em;
+}
+.marquez{
+    position: absolute;
+    margin-left: 21em;
+    margin-top: 3em;
+}
+.bagnaia{
+    position: absolute;
+    margin-left: 48em;
+    margin-top: 3em;
+}
+
+figcaption{
+    font-family: fantasy;
+    text-align: center;
+}

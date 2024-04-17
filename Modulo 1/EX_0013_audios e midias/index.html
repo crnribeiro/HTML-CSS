@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/musica.png" type="image/x-icon">
+    <title>Audios e midias</title>
+</head>
+<body>
+    <h1>Audios e midias</h1>
+    <hr>
+     <h2>Vamos aprender a colocar e reproduzir audios e midias em um site HTML 5</h2>
+     <br>
+    <h3>Inserindo audios</h3>
+    <audio src="midias/som/happy-mistake.mp3" controls></audio> <!--metodo1 de inserir audio no site-->
+    <!--audios compativeis são MP# wav e OGG-->
+    <br>
+    <audio preload="metadata" controls><!--controsl e pra exibir na tela do site o controlador do audio-->
+        <source src="midias/som/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midias/som/guanacast-33.mp3" type="audio/ogg">
+        <source src="midias/som/guanacast-33.mp3" type="audio/wav">
+        <!--O navegador vai tentar carregar o audio na sequencia que estiver o codigo, nesse caso vai tentar 1º moes, depois ogg e por ultimo wav-->
+    </audio>
+    <br><br>
+    <h3>Inserindo videos</h3>
+    <p>Videos hospedados localmente</p>  
+    <video src="midias/videos/Videos Limoes.mp4" controls poster="imagens/limao.jpg"></video>
+    <video src="midias/videos/Videos Limoes Leve.webm" controls></video>
+    <video class="correnteza" src="midias/videos/agua.mp4" controls poster="imagens/correnteza.jpg"></video>
+    <p>Segue mais videos na outra poagina do site clicando <a href="pag2.html">AQUI</a></p>
+</body>
+</html>

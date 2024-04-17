@@ -1,0 +1,17 @@
+@charset UTF-8;
+
+div{
+display: inline-block;
+background-color: lightgray;
+text-align: center;
+border: 2px solid black ;
+height: 200px;
+width: 200px;
+}
+div:hover{
+background-color: #c8c8079e;
+width: 500px;
+height: 500px;
+}
+
+
