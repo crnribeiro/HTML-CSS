@@ -1,0 +1,27 @@
+@charset UTF-8;
+body{
+    height: 100vh;
+    /*background-color: black;
+    background-image: url('Imagens/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;*/
+     /*
+    shorthand - background
+    color > image > position > repeat > [size] > attachment
+    [ size tem que ser separado]
+    */
+    background: black url('Imagens/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+main{
+    background-color: white;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    border: 2px blueviolet solid;
+    border-radius: 15px;
+    text-align: justify;
+    text-indent: 10px;
+}
