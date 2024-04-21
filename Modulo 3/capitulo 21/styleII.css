@@ -10,10 +10,14 @@ background-color: #cbc7e859;
 
 h1{
 text-align: center;
+margin: auto;
 margin-top: 15px;
 margin-bottom: 15px;
+width: 500px;
 color: white;
-background-color: black;}
+background-color: black;
+text-transform: uppercase;
+font-family: sans-serif;}
 
 caption{
 font-size: 1.5em;
