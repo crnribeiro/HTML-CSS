@@ -16,7 +16,7 @@ padding: 0px;}
 html, body{
 background-color: darkgrey;
 min-height: 100vh;
-font-family: ;}
+font-family: var(--font1);}
 
 header{
 background-color: black;
@@ -26,7 +26,9 @@ text-align: center;}
 header h1{
 padding: 50px;
 /*text-transform: uppercase; ao inves desse comando uar "font-variant*/
-font-variant: small-caps;}
+font-variant: small-caps;
+font-family: var(--font2);
+font-size: 10vw;}
 
 header p{
 padding-bottom: 50px;}
@@ -43,7 +45,9 @@ section{
 padding-top: 10vh;
 padding-bottom: 10vh;
 line-height: 2em;
-padding-left: 30px;}
+padding-left: 30px;
+font-family: var(--font3);
+font-size: 3.5vw;}
 
 
 section.normal{
@@ -55,7 +59,8 @@ background-color: rgb(82, 80, 80);
 color: white;}
 
 section.imagem > p{
-width: 400px;
+display: inline-block;
+padding: 5px;
 background-color: rgba(0, 0, 0, 0.368);}
 
 footer{
