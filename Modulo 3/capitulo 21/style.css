@@ -20,3 +20,10 @@ text-align: right;}
 
 .linha{
 background-color: gray;}
+
+.linha1{
+border: 1px solid black;}
+
+
+.linha1 > td{
+border: none;}
