@@ -6,15 +6,17 @@ padding: 0px;}
 
 body{
 font-family: sans-serif;}
+
 h1{
-margin-left: 200px;
+text-align: center;
 margin-top: 10px;}
 
 table{
 border-collapse: collapse;
-width: 300px;
-margin-left: 210px;
-margin-top: 15px;}
+width: 400px;
+margin-left: 250px;
+margin-top: 15px;
+display: inline-block;}
 
 td{
 text-align: center;
