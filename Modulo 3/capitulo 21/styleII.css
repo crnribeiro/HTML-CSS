@@ -5,7 +5,8 @@ padding: 0px;
 margin: 0px;}
 
 body{
-background-color: #cbc7e859;}
+background-color: #cbc7e859;
+}
 
 h1{
 text-align: center;
@@ -20,6 +21,13 @@ padding: 10px;
 font-weight: bolder;
 background-color: lightgray;
 border: 3px solid black;}
+
+tbody > tr:nth-child(odd)/* 2n-1 */{
+background-color: #57595b75;
+font-weight: bolder;}
+
+tbody > tr:nth-child(even)/* 2n */{
+    background-color: #ffffff;}
 
 th.popul{
 width: 70px;}
