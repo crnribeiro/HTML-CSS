@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+padding: 0px;
+margin: 0px;}
+
+body{
+height: 100vh;
+background-color: azure;}
+
+h1{
+text-align: center;}
+
+h1.dois{
+padding-top: 10px;}
+
+table{
+border-collapse: collapse;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;}
+
+table.segunda{
+margin-top: 10px;}
+
+td{
+border: solid 2px black;
+width: 150px;
+height: 50px;
+text-align: center;}
