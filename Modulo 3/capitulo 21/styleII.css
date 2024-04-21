@@ -6,6 +6,7 @@ margin: 0px;}
 
 body{
 background-color: #cbc7e859;
+height: 100vh;
 }
 
 h1{
@@ -40,7 +41,14 @@ table{
 width: 500px;
 border-collapse: collapse;
 margin: auto;
-border: 3px solid black;}
+border: 3px solid black;
+margin-bottom: 10px;
+position: relative;}
+
+thead > tr >th{
+position: sticky;
+top: 0;
+background-color: #2b2d2f75;}
 
 td{
 height: 10px;}
