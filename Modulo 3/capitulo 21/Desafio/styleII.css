@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+padding: 0px;
+margin: 0px;}
+
+body{
+height: 100vh;
+background-color: #c8abab39;}
+
+h1{
+text-align: center;
+margin-top: 20px;}
+
+table{
+border-collapse: collapse;
+margin: auto;
+margin-top: 30px;}
+
+th, td{
+width: 120px;
+border: solid 2px black;}
+
