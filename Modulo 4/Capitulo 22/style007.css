@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+padding: 0px;
+margin: 0px;}
+
+body{
+font-family: sans-serif;
+background-color: beige;}
+
+div.vimeo{
+width: 400px;
+height: 400px;
+margin-top: -517px;
+margin-bottom: -500px;}
+iframe.google{
+margin-bottom: 20px;}
