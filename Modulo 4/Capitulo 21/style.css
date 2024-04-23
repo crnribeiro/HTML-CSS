@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;}
+
+    body{
+        height: 100vh;
+        background-color: rgba(114, 73, 34, 0.651);
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 15px;
+        font-family: sans-serif;}
+        p{
+            text-align: center;
+            margin-top: 20px;
+        }
+        iframe.um{
+            height: 500px;
+            width: 1200px;
+            margin-left: 200px;
+            margin-top: 10px;
+            border: solid 2px black;
+        }
+        iframe.dois{
+            border: solid 2px black;
+            height: 200px;
+            width: 500px;
+            margin-left: 515px;
+            margin-top: 10px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+        }
