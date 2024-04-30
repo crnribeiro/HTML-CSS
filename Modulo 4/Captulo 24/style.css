@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+*{
+margin: 0px; padding: 0px; font-family: sans-serif;
+}
+
+h1{
+text-align: center;
+margin-top: 20px;}
+form{
+margin-left: 30px;}
