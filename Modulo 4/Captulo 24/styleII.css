@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+*{
+padding: 0px; margin: 0px;}
+h1{
+text-align: center;}
+form{
+padding: 10px;}
+p{
+padding: 10px; margin-left: 15px;}
