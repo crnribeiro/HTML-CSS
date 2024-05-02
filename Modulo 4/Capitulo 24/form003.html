@@ -7,6 +7,37 @@
     <title>Formulario</title>
 </head>
 <body>
+    <h1>Teste de formulario - 003</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">NOME:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="on" size="30">
+        </p>
+        <p>
+            <label for="idisciplina">DISCIPLINA:</label>
+            <input type="text" name="Disciplina" id="idisciplina" required maxlength="15" placeholder="sem siglas">
+        </p>
+        <p>
+            <label for="iperiodo">PERIODO AVALIADO</label>
+            <input type="month" name="data" id="iperiodo">
+        </p>
+        <p>
+            <label for="idata">DATA DA PROVA</label>
+            <input type="date" name="data" id="idata">
+        </p>
+        <p>
+            <label for="ihora">HORA da PROVA</label>
+            <input type="time" name="HORA" id="ihora">
+        </p>
+        <p>
+            <label for="imedia">NOTA:</label>
+            <input type="number" name="Media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" required>
+        </p>
+        <p>
+            <input class="botoes" type="submit" value="Enviar">
+            <input class="botoes" type="reset" value="Limpar">
+        </p>
+    </form>
     
 </body>
 </html>

@@ -6,6 +6,31 @@ padding: 0px;
 margin: 0px;}
 
 body{
+    height: 97vh;
     background-color: #5b5badb0;
-   
-}
+    background-image: linear-gradient(to bottom, #6ca6ec, #3a3ad7);}
+
+h1{
+text-align: center;
+margin-top: 20px;
+font-family: sans-serif;
+font-weight: bold;}
+
+form{
+margin-left: 25px;}
+
+p{
+margin-top: 10px;}
+
+input{
+border-radius: 5px;}
+
+.botoes{
+padding: 5px;
+background-color: #aa3d3d;
+color: white;}
+
+.botoes:hover{
+
+background-color: #079867;}
+
