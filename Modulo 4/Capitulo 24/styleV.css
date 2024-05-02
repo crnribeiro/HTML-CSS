@@ -1,28 +1,54 @@
+@charset "UTF-8";
+
 *{
     padding: 0px;
     margin: 0px;}
     
     body{
-        height: 97vh;
-        background-color: #5b5badb0;
-        background-image: linear-gradient(to bottom, #f0a45d, #c77f36, #bc700c, #9d470d);}
+    height: 97vh;
+    background-color: #5b5badb0;
+    background-image: linear-gradient(to bottom, #dcb998, #cb9c6c, #b07a34, #9d470d);}
     
     h1{
     text-align: center;
     margin-top: 20px;
     font-family: sans-serif;
     font-weight: bold;
-font-style: italic;}
+    font-style: italic;}
     
     form{
-        margin-left: 25px;}
+    margin-left: 25px;}
         
-        p{
-        margin-top: 10px;}
+    p{
+    margin-top: 10px;}
 
-        .botoes{
-           
-            display: block;
-            position: absolute;
-            margin-left: 380px;
-            margin-top: 70px;}
+    #um{
+        width: 200px;
+   }
+
+    #dois{
+        width: 200px;
+        margin-top: 10px;
+    }
+    #tres{
+    width: 300px;
+}
+#tres > input{
+   
+    margin-bottom:  10px;
+}
+   
+   fieldset > input{
+    margin-left: 10px;
+    margin-top: 5px;}
+
+    .botoes{
+     margin-top: 10px;
+    padding: 10px;
+    background-color: #aa3d3d;
+    color: white;
+    border-radius: 5px;
+margin-left: 25px;}
+
+label, legend{
+font-size: 25px;}

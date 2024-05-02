@@ -1,2 +1,1 @@
-Seu formulrio foi enviado!!
-Pode voltar ao exercicio!!
+Seu formulrio foi enviado com sucesso!!

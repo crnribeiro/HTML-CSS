@@ -9,7 +9,34 @@
 <body>
     <h1>Teste de formulario - 005</h1>
     <form action="cadastro.php" method="get">
-        
+        <fieldset id="tres">
+            <legend>Dados Pessoais</legend>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required size="25"><br>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" required size="25">
+           
+        </fieldset>
+        <fieldset id="um">
+            <legend>SEXO</legend>
+            <input type="radio" name="sexo" id="isexmas">
+            <label for="isexmas">Maculino</label><br>
+            <input type="radio" name="sexo" id="isexfem">
+            <label for="isexfem">Feminino</label>
+        </fieldset>
+        <fieldset id="dois">
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="fut" id="ifut">
+            <label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="bas" id="ibas">
+            <label for="ibas">Basquete</label> <br>
+            <input type="checkbox" name="nat" id="inat">
+            <label for="inat">Nataçação</label> <br>
+            <input type="checkbox" name="Volei" id="ivol">
+            <label for="ivol">Volei </label><br>
+            <input type="checkbox" name="han" id="ihand">
+            <label for="ihand">Handball</label>
+        </fieldset>
         <div id="botoes">
             <input class="botoes" type="submit" value="Enviar">
             <input class="botoes" type="reset" value="Limpar">
